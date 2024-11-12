@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    margin: 0;
+     
+  font-family: "Roboto", sans-serif;
+  }   
+  .header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .header-links a:hover{
+    background-color: #424949;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  .btn{
+    background-color:  #424949;
+    border-radius: 15px;
+    padding:5px 15px;
+color: white;
+border: none;
+  }
+  .btn:hover {
+    background-color: #42494941;
+  }
+  .header-links a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    border-radius: 15px;}
+
+ 
+  .landing-page {
+    background-color: black;
+display: flex;  
+justify-content: space-between;
+padding: 25px 50px;
+align-items: center;
+color: white;
+border-radius:0 0 50px 50px;
+
+  }
+  .landing-page-left-section{
+    width:1000px ;
+  }
+  .landing-page-search input{
+border-radius: 50px;
+border: none;
+outline:none;
+height: 30px;
+padding: 0 10px;
+
+  }
+
+  .landing-page-search button{
+    position: absolute;
+    right: 490px;;
+    height:30px;
+    padding: 0 10px;
+  
+  }
+
+.landing-page-image-container img { 
+border-radius: 20px;
+width: 900px;
+padding: auto;
+right: 20%;
+}
+.Featured-container{
+  padding: 25px 50px;
+
+}
+
+.Featured-container span{
+  color:black;
+  text-transform:uppercase ;
+  font-size: medium;
+  
+}
+.Featured-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Featured-container h1 {
+  margin-top: 0;
+}
+.Featured-container button{
+  font-size: x-large;
+}
+.Featured-cards {
+  display: flex;
+  gap: 200px; ;
+}
+.card{
+  width: 500px;
+  background-color: #cccccc ;
+  border-radius:20px ;
+}
+.card .thumb{
+  border-radius:20px 20px 0 0  ;
+}
+.card-info{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+padding: 5px 25px;
+}
+.card-info img {
+  width: 50px;
+  border-radius: 20px;
+
+}
+.card .thumb2 {
+  gap: 2000px ;
+}
+.btnn{
+  background-color:  white;
+  border-radius: 15px;
+ 
+color: white;
+border: none;
+}
